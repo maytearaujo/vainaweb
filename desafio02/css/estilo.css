@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: rgb(177, 40, 231);
+    text-align: center;
+    display: block;
+    padding: 2.5rem;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    padding-left: 1.5rem;
+    color: aliceblue;
+    font-size: 1.3rem;
+}
+
+p, label, button, img {
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+.container {
+    display: block;
+    padding:  25px 25px 78px 25px;
+}
+
+.produto {
+    text-align: center;
+    border: 25px;
+    display: inline-block;
+    width: 300px;
+}
+
+form{
+    padding: 25px;
+}
+
+img {
+    width: 170px;
+    height: 170px;
+}
+
+footer {
+    background-color: rgb(246, 156, 219);
+    padding: 2.rem;
+    letter-spacing: .1rem;
+
+    display: block;
+}
