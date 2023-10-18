@@ -9,5 +9,5 @@
     <li>
         <a href="https://maytearaujo.github.io/vainaweb/desafio02" target="_blank">Desafio 02 - Loja</a>
     </li>
-    <li><a href="https://maytearaujo.github.io/vainaweb/the-witcher" target="_blank">Desafio The Witcher - Loja</a></li>
+    <li><a href="https://maytearaujo.github.io/vainaweb/the-witcher" target="_blank">Desafio The Witcher</a></li>
 </ul>
