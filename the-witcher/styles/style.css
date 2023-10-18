@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #f0f8ff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-image: url(../assets/the-witcher-hell.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    width: 100vw;
+    height: 15vh;
+    padding: 1em;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    font-size: 18px;
+    
+}
+
+
+header img{
+    height: 70px;
+}
+
+header a,
+.menu a{
+    text-decoration: none;  
+}
+
+.menu li {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.universo{
+    font-weight: bold;
+}
+
+nav{
+width: 50vw;
+display: flex;
+justify-content: space-between;
+}
+
+
+.menu{
+    display: contents;
+    align-items: center;
+    justify-content: space-around;
+    /* border: solid green; */
+}
+
+
+.menu a:hover, .logo a:hover{
+    color: red;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+}
+
+.personagem{
+    
+    width: 520px;
+    height: 85vh;
+}
+
+.titulo {
+    width: 300px;
+    height: 180px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    bottom: 20vh;
+}
+
+.botao{
+    position: absolute;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: red;
+    padding: 1em;
+    margin: 1.3em;
+    letter-spacing: .2em;
+    word-spacing: .2em;
+    border-radius: 5px;
+    bottom: 8vh;
+}
+
+.botao:hover{
+    background-color: rgba(255, 255, 0, .3);
+    scale: 1.1;
+    /* color: red; */
+}
