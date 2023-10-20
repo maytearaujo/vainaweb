@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+    font-family: 'Lily Script One', sans-serif;
+}
+
+header,
+footer{
+    height: 60px;
+    width: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header{
+    border-bottom:   solid #ccc;
+}
+
+footer{
+    border-top:  solid #ccc;
+    padding-top: 2em;
+}
+
+ul{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    list-style-type: none;
+}
+
+.banner{
+    width: 100vw;
+    height: 5%;
+}
+
+.banner img{
+    width: 90vw;
+    height: 100vh;
+}
+
+.filmes{
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5em;
+
+}
+
+.imagens>img{
+    width: 300px;
+    height: 350px;
+}
+
