@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lily+Script+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    font-family: 'Caveat', sans-serif;
+    font-size: 1.5em;
+}
+
+header{
+    background-color: #FFA0D9;
+
+    width: 100%;
+    height: 50px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border: solid yellow; */
+} 
+
+.logo{
+    width:35%;
+    /* border: solid red; */
+}
+
+.logo img{
+    width: 60px;
+    align-items: center;
+    /* border: solid green; */
+}
+
+nav{
+    width: 60%;
+    /* border: solid blue; */
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+section{
+    height: 68vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+section p, section img{
+    margin: 2em;
+    width: 50%;
+}
+
+footer{
+    height: 60px;
+    background-color: #FFA0D9;
+    color: aliceblue;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+footer img{
+    height: 60px;
+}
+
+
+@media screen AND (max-width: 500px) {
+    
+}
